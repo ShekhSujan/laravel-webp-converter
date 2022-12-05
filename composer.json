@@ -2,8 +2,9 @@
     "name": "sujan97825/laravel-webp-converter",
     "description": "Convert jpg,jpeg,png,webp image to webp,Compress & Resize Image",
     "keywords": [
-        "jpg,jpeg,png,webp",
-        "laravel"
+        "webp",
+        "laravel",
+        "webp"
 
     ],
     "homepage": "https://github.com/sujan97825/laravel-webp-converter",
