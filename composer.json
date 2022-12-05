@@ -6,11 +6,11 @@
         "laravel"
 
     ],
-    "homepage": "https://github.com/sujan97825/laravel-slug-generator",
+    "homepage": "https://github.com/sujan97825/laravel-webp-converter",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Sujan\\LaravelSlugGenerator\\": "src/"
+            "Sujan\\LaravelWebpConverter\\": "src/"
         }
     },
     "authors": [
@@ -26,10 +26,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sujan\\LaravelSlugGenerator\\SlugGeneratorServiceProvider"
+                "Sujan\\LaravelWebpConverter\\WebpConverterServiceProvider"
             ],
             "aliases": {
-                "SlugGenerator": "Sujan\\LaravelSlugGenerator\\SlugGenerator"
+                "WebpConverter": "Sujan\\LaravelWebpConverter\\WebpConverter"
             }
         }
     }
