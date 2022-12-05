@@ -1,0 +1,36 @@
+{
+    "name": "sujan97825/laravel-webp-converter",
+    "description": "Laravel Slug Generator with Multi Language Support",
+    "keywords": [
+        "jpg,jpeg,png,webp",
+        "laravel"
+
+    ],
+    "homepage": "https://github.com/sujan97825/laravel-slug-generator",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sujan\\LaravelSlugGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sujan97825",
+            "email": "sujanmahmudovi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sujan\\LaravelSlugGenerator\\SlugGeneratorServiceProvider"
+            ],
+            "aliases": {
+                "SlugGenerator": "Sujan\\LaravelSlugGenerator\\SlugGenerator"
+            }
+        }
+    }
+}
