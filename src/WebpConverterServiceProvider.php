@@ -1,6 +1,6 @@
 <?php
 
-namespace Sujan\WebpConverterServiceProvider;
+namespace Sujan\LaravelWebpConverter;
 
 use Illuminate\Support\ServiceProvider;
 
