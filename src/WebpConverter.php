@@ -5,12 +5,12 @@ namespace Sujan\LaravelWebpConverter;
 class WebpConverter
 {
     /**
-     * Convert jpg,jpeg,png,webp Image webp.
+     * Convert jpg,jpeg,png,webp image to webp,Compress & Resize Image.
      *
      * @return webpImage
      * @throws \Exception
      */
-    public function uniqueSlug($file, $filename, $location, $width = null, $height = null, $quality = null)
+    public function webpImage($file, $filename, $location, $width = null, $height = null, $quality = null)
     {
         $quality = empty($quality) ? config('laravel-webp-converter.quality') : $quality;
 
