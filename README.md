@@ -74,6 +74,14 @@ public function webpImage(
     $height = null
     $quality = null
 )
+
+#### Input Type Demo
+  $file = $request->file("image"); //Request File
+  $filename="abc"; //Image Name
+  $location="assets/images/"; //Image Upload Location
+  $width=500; // Image Width,If You Want To Resize.Default Null.
+  $height=250; // Image Height,If You Want To Resize.Default Null.
+  $quality=100 //Image Quality Can Be Used [ 1-100 ],Default 100.
 ```
 
 #### Publish configuration
